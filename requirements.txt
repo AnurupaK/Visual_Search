@@ -1,0 +1,6 @@
+Flask
+Pillow
+tensorflow
+numpy
+pinecone
+python-dotenv

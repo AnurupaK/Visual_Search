@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>ECommerce</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="eContainer">
+        <header>
+            <div class="logo"></div>
+            <ul class="OtherIcon">
+                <li>Home</li>
+                <li>Product</li>
+                <div class="querySearch">
+                    <li><input type="text" id="Search" placeholder="Search your query"></li>
+                    <li>
+                        <div class="SearchIcon"></div>
+                    </li>
+                </div>
+
+                <div class="VisualSearch">
+                    <li class="Camera">📷</li>
+                    <li>Visual Search</li>
+                </div>
+
+                <li class="Login"></li>
+                <ul>
+
+        </header>
+
+
+        <div class="ImageBox">
+            <input type="file" id="fileUpload" name="imageFile" accept="image/*">
+            <button class="submitBtn">Search</button>
+        </div>
+        <div class="textDesign">E-Commerce Website. Get your favorite Furnitures here! Order now</div>
+        <button class="shop">Shop Now!!!</button>
+        <div class="main">
+            <div class="left">
+                
+            </div>
+            <div class="right">
+                <div class="furniture">
+                    <div class="item item1"></div>
+                    <div class="details details1">
+                        <h4>Nilkamal Paradise Plastic Arm Chair (Lush Green, Season Rust Brown & Mustard Yellow)</h4>
+                        <ul>
+                            <li>Price: ₹1250</li>
+                            <li>Armchair</li>
+                            <li>Oak wood</li>
+                            <li>Beige</li>
+                            <li>Easy EMI Options</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="furniture">
+                    <div class="item item2"></div>
+                    <div class="details details2">
+                        <h4>MJ FURNITURE Solid  Wooden Queen Size Bed  (Honey Finish)</h4>
+                        <ul>
+                            <li>Price: ₹38500</li>
+                            <li>Queen Bed</li>
+                            <li>Sheesham Wood</li>
+                            <li>Honey Finish</li>
+                            <li>EMI starts at ₹1,871</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="furniture">
+                    <div class="item item3"></div>
+                    <div class="details details3">
+                        <h4>PAZANO Multi-Purpose Portable & Foldable Wooden Table</h4>
+                        <ul>
+                            <li>Price: ₹3500</li>
+                            <li>Table</li>
+                            <li>Plywood</li>
+                            <li>Brown</li>
+                            <li>No cost EMI</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

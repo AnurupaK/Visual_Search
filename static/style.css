@@ -1,0 +1,236 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 178, 154);
+    font-family: "Roboto", sans-serif;
+}
+
+.eContainer{
+    width: 96vw;
+    /* border: 1px solid black; */
+    height: 90vh;
+    background-color: rgb(243, 232, 237);
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 21px;
+    box-shadow: 0px 0px 30px 2px rgb(99, 99, 99) ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.logo{
+    background-image: url(Images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+
+.OtherIcon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 60px;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: brown;
+    cursor: pointer;
+}
+
+.querySearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SearchIcon{
+    background-image: url(Images/search.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}
+
+#Search{
+    padding: 4px;
+    width: 230px;
+    height: 35px;
+    border-radius: 21px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+}
+
+.SearchIcon:hover{
+    transform: scale(1.15);
+}
+
+.VisualSearch{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.Camera{
+    font-size: 50px;
+    transform: translateY(-11px);
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}
+
+.Camera:hover{
+    transform: scale(1.1);
+}
+
+.Login{
+    background-image: url(Images/signIn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;   
+}
+
+.ImageBox{
+    width: 300px;
+    height: 100px;
+    /* border: 1px solid black; */
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 21px;
+    background-color: rgb(248, 174, 101);
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    box-shadow: 0px 0px 2px 3px rgb(220, 220, 220);
+    display: none;
+}
+
+.submitBtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 21px;
+}
+
+.textDesign{
+   position: absolute;
+   width: 300px;
+   min-height: 10px ;
+   font-size: 1.6rem;
+   left: 25%;
+   font-family: "Edu AU VIC WA NT Pre", cursive;
+   color: rgb(238, 124, 143);
+   font-weight: bold;
+}
+
+.shop{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    min-width: 150px;
+    min-height: 40px;
+    border-radius: 11px;
+    font-size: 1.5rem;
+    background-color: rgb(13, 162, 110);
+    cursor: pointer;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    background-image: url(Images/picture1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 500px;
+    height: 450px;
+    /* border: 1px solid black; */
+    /* position: relative; */
+}
+
+
+
+.right{
+    width: 680px;
+    height: 450px;
+    /* border: 1px solid black; */
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.furniture{
+    width: 540px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: 11px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(210, 178, 70);
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 3px rgb(220, 220, 220);
+}
+
+.item{
+    width: 60%;
+    height: 280px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 11px;
+}
+
+.details{
+    width: 30%;
+    height: 280px;
+    /* border: 1px solid black; */
+    padding: 6px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border-radius: 13px;
+}
+
+.item1{
+    background-image: url(Images/furniture1.jpg);
+}
+
+.item2{
+    background-image: url(Images/furniture2.jpg);
+}
+.item3{
+    background-image: url(Images/furniture3.jpg);
+}
+
+.furniture:hover{
+    transform: scale(1.04);
+}
